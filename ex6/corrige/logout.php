@@ -1,0 +1,9 @@
+<?php
+session_start();
+// remove all session variables
+session_unset();
+// destroy the session
+session_destroy();
+header('Location: http://cours-php.atwebpages.com/projets/ex6/login.php?msg=logout_succes');
+exit;
+?>
