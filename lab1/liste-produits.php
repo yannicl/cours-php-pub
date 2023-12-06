@@ -1,3 +1,7 @@
+<?php
+    include_once('donnees-produits.php');
+?>
+
 <!doctype html>
 <html lang="fr">
 
@@ -10,15 +14,6 @@
 </head>
 
 <body class="">
-
-    <?php
-    include_once('donnees-produits.php');
-
-    // compléter ici
-    //
-    // http://cours-php.atwebpages.com/projets/lab1/liste-produits-initial.php
-
-    ?>
 
     <main>
         <div class="container">
