@@ -2,20 +2,17 @@
 <html>
 <body>
 <?php 
-const N = 29;
-if (N <= 1) {
-    echo "non géré";
-} else {
-    for($i = 2; $i < N; $i++) {
-        $carre = $i * $i;
-        if ($carre <= N) {
-            $sum += $carre;
-        } else {
-            break;
-        }
+const N = 9;
+$somme = 0;
+for($i = 1; $i <= N; $i++) {
+    $x = $i * $i;
+    if ($x <= N) {
+        $somme += $x;
+    } else {
+        break;
     }
 }
-echo $sum;
+echo $somme;
 ?>
 </body>
 </html>
