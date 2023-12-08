@@ -35,3 +35,9 @@ Utiliser le langage PHP pour paginer de façon dynamique une liste de produits.
 6. Lorsque la dernière page est affichée, la navigation vers la fin des pages est désactivée.
 7. La page courante est indiquée dans le menu de navigation.
 8. Votre code PHP est bien formatté et documenté.
+
+## Notes
+
+Le visuel du laboratoire utilise la librairie CSS de Bootstrap 5 :
+- [Pagination](https://getbootstrap.com/docs/5.0/components/pagination/)
+- [Table](https://getbootstrap.com/docs/5.0/content/tables/)
