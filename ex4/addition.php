@@ -1,5 +1,9 @@
-<!DOCTYPE html>
-<html>
+<?php
+// code here
+?>
+
+<!doctype html>
+<html lang="fr">
 
 <body>
 
