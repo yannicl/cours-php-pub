@@ -23,8 +23,8 @@ Utiliser le langage PHP pour réceptionner un formulaire dans un fichier csv.
 3. Implémenter les exigences ci-bas
 4. Téléverser vos fichiers php sur votre site personnel.
 5. Valider que votre site web s’affiche correctement
-6. Remplissez ce document avec les informations dans les tableaux
-7. Soumettez ce document ainsi que le fichier php via Léa.
+6. Remplissez ce document labo1.md avec les informations prénom, nom, numéro d'étudiant et url du site.
+7. Soumettez ce document labo1.md ainsi que le fichier php dans une archive zip via Léa.
 
 
 ## Exigences
