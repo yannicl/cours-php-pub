@@ -6,6 +6,12 @@
 //const DB_USER = "root";
 //const DB_PASS = "";
 
+// Serveur distant
+//const DB_HOST = "db";
+//const DB_NAME = "sitexx";
+//const DB_USER = "sitexx";
+//const DB_PASS = "database password";
+
 
 // MYSQL
 const DB_HOST = "localhost";
