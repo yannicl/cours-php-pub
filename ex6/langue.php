@@ -2,23 +2,6 @@
 
 $langue = "fr";
 
-if (isset($_COOKIE["lang"])) {
-    if ($_COOKIE["lang"] == "fr") {
-        $langue = "fr";
-    } elseif ($_COOKIE["lang"] == "en") {
-        $langue = "en";
-    }
-}
-
-if (isset($_GET["lang"])) {
-    if ($_GET["lang"] == "fr") {
-        $langue = "fr";
-    } elseif ($_GET["lang"] == "en") {
-        $langue = "en";
-    }
-    setcookie("lang", $langue, time() + 30 * 24 * 60 * 60);
-}
-
 ?>
 
 <!doctype html>
@@ -57,8 +40,8 @@ if (isset($_GET["lang"])) {
                             <?= strtoupper($langue) ?>
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item <?= ($langue == 'fr') ? 'active' : '' ?>" href="?lang=fr">Français - FR</a></li>
-                            <li><a class="dropdown-item <?= ($langue == 'en') ? 'active' : '' ?>" href="?lang=en">English - EN</a></li>
+                            <li><a class="dropdown-item active" href="?lang=fr">Français - FR</a></li>
+                            <li><a class="dropdown-item" href="?lang=en">English - EN</a></li>
                         </ul>
                     </li>
                 </ul>
