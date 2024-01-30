@@ -83,6 +83,20 @@
             </table>
 
         </div>
+        <div>
+            <h2>Enregister un nouveau livre</h2>
+            <form action="liste-produits.php" method="post">
+                <label for="codeBarre">Code barre:</label><br>
+                <input type="text" id="codeBarre" name="codeBarre"><br>
+                <label for="titre">Titre:</label><br>
+                <input type="text" id="titre" name="titre"><br>
+                <label for="editeur">Éditeur:</label><br>
+                <input type="text" id="editeur" name="editeur"><br>
+                <label for="format">Format:</label><br>
+                <input type="text" id="format" name="format"><br>
+                <input type="submit" value="Enregister">
+            </form>
+        </div>
     </main>
 
 </body>
