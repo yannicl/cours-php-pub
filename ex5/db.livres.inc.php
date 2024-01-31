@@ -28,4 +28,17 @@ function getProductsPage($pageIndex, $itemsPerPage = 5) {
     return $products;
 }
 
+// enregistrement d'un nouveau livre (produit sous forme de tableau) (formulaire en ligne)
+function saveNewProduct(array $produit) {
+    global $pdo;
+    $stmt = $pdo->prepare("INSERT INTO livres ( code_barre, titre, editeur, format) VALUES (:code_barre, :titre, :editeur, :format)");
+    $stmt->execute($produit);
+    echo 'insert done with id ' . $pdo->lastInsertId() . "\n";
+}
+
+function saveNewProductFromRawData($codeBarre, $titre, $editeur, $format) {
+    $produit = ['code_barre'=> $codeBarre, 'titre'=> $titre, 'editeur'=> $editeur, 'format'=> $format];
+    return saveNewProduct($produit);
+}
+
 ?>
